@@ -16,5 +16,5 @@
       register: output
 
     - name: Print O/P
-      ansible builtin debug:
+      ansible.builtin.debug:
         msg: "{{ output }}"
